@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>D3 attempt</title>
+
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+    <link rel="stylesheet" href="_/base.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.2/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+        <h2> <small>D3 SVG Learning</small></h2>
+        <section id="chart">
+          <div class="item">Batman Superman</div>
+          <div class="item">Richard Dawkins</div>
+          <div class="item">Bonjovi Bonjour</div>
+          <div class="item">Stephen Hawkings</div>
+          <div class="item">Tom Brady</div>
+          <div class="item">Seth Meyer</div>
+          <div class="item">Derek Muller</div>
+          <div class="item">Siraj Raval</div>
+        </section>
+        <p>
+        <section id="enter">
+        </section>
+        </p>
+        <svg width="500" height="400"
+          style="background: #93C1A2">
+          <rect x="250" y="150" width="100"
+            height="100" style="fill: #E44CDF" />
+          <circle cx="300" cy="200" r="50"
+            style = "fill: #FF0043" />
+          <text x = "10" y = "390"
+            font-family = "sans-serif"
+            font-size = "25"
+            fill="white">SVG's Hello World</text>
+          <g id="triangle">
+            <polyline points="10 35, 30 10, 50 35"
+              style="fill: #F7BC30;" />
+          </g>
+          <use xlink:href="#triangle"
+            x="30" y="0" />
+          <use xlink:href="#triangle"
+              x="60" y="0"/>
+          <use xlink:href="#triangle"
+              x="90" y="0" />
+        </svg>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+    <!-- d3 updates-->
+    <!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+    <script src="_/d3.min.js"></script>
+
+    <!--
+    ******************************************
+    Uncomment one of the script at a time
+    ******************************************
+  -->
+    <!-- understanding d3 select -->
+    <!-- <script src="select_script.js"></script> -->
+
+    <!-- understanding d3 attributes -->
+    <!-- <script src="attr_script.js"></script> -->
+
+    <!-- understanding d3 subselection and entering - important -->
+    <!-- <script src="enter_script.js"></script> -->
+
+    <!-- always the active script under execution -->
+    <script src="script.js"></script>
+  </body>
+</html>
