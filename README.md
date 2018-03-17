@@ -9,6 +9,12 @@
 - [D3 Wiki](https://en.wikipedia.org/wiki/D3.js)
 
 ## Usage
+
+### Steps -
+- download/clone the folder
+- open **index.html** in any modern browser.
+
+
 #### This bundle contains-
 - d3.min.js (D3 javascript library)
 - a base.css file for basic look-n-feel
@@ -16,17 +22,13 @@
 - an open style.css file
 - a bunch of d3 javascripts (most of them are already enabled in index.html)
 
-#### Steps -
-- download/clone the folder
-- open **index.html** in any modern browser.
-
 #### How to learn?
 - Open your favorite editor. I use [atom](http://atom.io)
 - Look at the source code of **index.html**
 - Spend time enabling one javascript at a time. Start with select_script.js
 - Comment all other javascripts, just keep script.js active
 - You can copy select_script.js into script.js
-- Refresh index.html
+- **Refresh** the browser index.html
 - The best part is, the changes you make immediately reflects on the browser
 - Please use browser debuggers to inspect the elements.
 - Now, understand the content of **script.js** line-by-line. There are code comments in place to help you
