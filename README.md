@@ -13,5 +13,6 @@
 - [Learning about DOM](https://www.digitalocean.com/community/tutorials/introduction-to-the-dom)
 - [CSS base class](https://gist.githubusercontent.com/planetoftheweb)
 - [SVG reference](https://developer.mozilla.org/en-US/docs/Web/SVG)
+- [Javascript Events](http://www.dhs.state.il.us/accessibility/references/js-events-quick-reference.html)
 
 ##### contact: [Vatsa](mailto:vatsamail@gmail.com)

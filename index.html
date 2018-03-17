@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>D3 attempt</title>
+    <title>D3 SVG attempt</title>
 
     <!-- Bootstrap -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -57,8 +57,15 @@
               x="60" y="0"/>
           <use xlink:href="#triangle"
               x="90" y="0" />
+          <use xlink:href="#triangle"
+              x="120" y="0" />
         </svg>
-    </div>
+        <div id="d3svg"></div>
+        <div id="barchart"></div>
+        <div id="coolbar"></div>
+        <div id="animbar"></div>
+      </div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
@@ -77,10 +84,23 @@
     <!-- <script src="select_script.js"></script> -->
 
     <!-- understanding d3 attributes -->
-    <!-- <script src="attr_script.js"></script> -->
+    <script src="attr_script.js"></script>
 
     <!-- understanding d3 subselection and entering - important -->
     <!-- <script src="enter_script.js"></script> -->
+
+    <!--understanding D3 svg basics using selection -->
+    <script src="d3svgselect_script.js"></script>
+
+    <!--understanding how to constuct a bar chart -->
+    <script src="barchart_script.js"></script>
+
+    <!--playing with auto colors of bar chart -->
+    <script src="coolbar_script.js"></script>
+
+    <!-- transitions, delays & tooltip to animate the barchart -->
+    <script src="animbar_script.js"></script>
+
 
     <!-- always the active script under execution -->
     <script src="script.js"></script>
